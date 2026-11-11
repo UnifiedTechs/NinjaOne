@@ -29,6 +29,9 @@
 .EXAMPLE
     .\Monitor-DHCP-ScopeCapacity.ps1 -IncludeScope 'Office','Guest' -ExcludeScope 'Lab'
 .NOTES
+    Version: 1.0.0
+    Customized by Brian Cook @ Unified Technology Solutions.
+
     Minimum OS: Windows Server 2016. Run in 64-bit Windows PowerShell 5.1 as
     SYSTEM or an elevated administrator. DHCP servers require the DhcpServer
     module. Missing tools, a stopped service, or access errors return 2.
